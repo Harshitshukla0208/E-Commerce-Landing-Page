@@ -1,0 +1,394 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Shukla's Store</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container">
+        <a class="navbar-brand" href="#">Shukla's Store</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            </li>
+            <li>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item dropdown">
+                    <button class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                      Category
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-dark">
+                      <li><a class="dropdown-item" href="#">All products</a></li>
+                      <li><a class="dropdown-item" href="#">Electronics</a></li>
+                      <li><a class="dropdown-item" href="#">Laptops</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            
+            <button class="btn btn-outline-success" type="submit" id="submit">Cart <span id="cart-count">0</span></button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Carousal -->
+    <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/868123fbb7edb670.jpeg?q=20" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/1c0adf8cc6463cc4.jpeg?q=20" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/8b3cccc8091bf789.jpg?q=20" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- Product Cards -->
+    <div class="custom-divider"></div>
+
+    <div class="container">
+      <h2>Asus :</h2>
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-3">    
+          <div class="card" style="width: 18rem;">
+            <img src="https://m.media-amazon.com/images/I/71T4m4vigmL._AC_UY327_FMwebp_QL65_.jpg" class="card-img-top-product" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">ASUS ROG Strix G16 (2023)</h5>
+              <p class="card-text">Intel Core i5-13450HX 13th Gen, 16" FHD+ 165Hz, 6GB RTX 3050, (16GB/512GB SSD/Win 11/MS-office 21/Gray/2.50 Kg).</p>
+              <a href="https://www.amazon.in/ASUS-Battery-i5-13450HX-Windows-G614JJ-N3086WS/dp/B0CJ35G6B3/ref=sr_1_1_sspa?crid=1Y54HLTYERWNB&keywords=asus+laptops&nsdOptOutParam=true&qid=1698145411&sprefix=asus+laptop%2Caps%2C374&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1" target="_blank" class="btn btn-primary">Buy Now</a><a href="#" class="btn btn-warning" style="margin-left: 80px;">₹89,990</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3">    
+          <div class="card" style="width: 18rem;">
+            <img src="https://m.media-amazon.com/images/I/71mbFexXBZL._AC_UY327_FMwebp_QL65_.jpg" class="card-img-top-product" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">ASUS ROG Zephyrus G14</h5>
+              <p class="card-text">AMD Ryzen 7 7735HS, 14" QHD+ 165Hz/3ms, 6GB RTX 3050, Gaming Laptop (16GB/512GB SSD/Windows 11/Office 2021/1-Zone RGB/Gray/1.65 Kg).</p>
+              <a href="https://www.amazon.in/ASUS-Zephyrus-Battery-Windows-GA402NJ-L8094WS/dp/B0C8JLB5SS/ref=sr_1_12_sspa?crid=1Y54HLTYERWNB&keywords=asus+laptops&nsdOptOutParam=true&qid=1698145411&sprefix=asus+laptop%2Caps%2C374&sr=8-12-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1" target="_blank" class="btn btn-primary">Buy Now</a><a href="#" class="btn btn-warning" style="margin-left: 70px;">₹1,19,990</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3">    
+          <div class="card" style="width: 18rem;">
+            <img src="https://m.media-amazon.com/images/I/71m7XVxRD-L._AC_UY327_FMwebp_QL65_.jpg" class="card-img-top-product" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">ASUS ROG Strix G15</h5>
+              <p class="card-text">AMD Ryzen 7 6800H, 15.6"(39.62 cm) FHD 144Hz, (Include - ROG Impact Mouse), 4GB RTX 3050 GPU, Gaming Laptop (16GB/1TB SSD/Win11/Office 21/2.1 Kg).</p>
+              <a href="https://www.amazon.in/ASUS-Strix-Ryzen-6800H-Included/dp/B0BMVSKSJ6/ref=sr_1_11_sspa?crid=1Y54HLTYERWNB&keywords=asus+laptops&nsdOptOutParam=true&qid=1698145411&sprefix=asus+laptop%2Caps%2C374&sr=8-11-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1" target="_blank" class="btn btn-primary">Buy Now</a><a href="#" class="btn btn-warning" style="margin-left: 80px;">₹94,990</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3">    
+          <div class="card" style="width: 18rem;">
+            <img src="https://m.media-amazon.com/images/I/71H5edMDwxL._AC_UY327_FMwebp_QL65_.jpg" class="card-img-top-product" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">ASUS TUF Gaming F15</h5>
+              <p class="card-text">Intel Core i5-12500H 12th Gen, 15.6" FHD, (8GB/512GB/4GB NVIDIA GeForce RTX 3050 /Win11/1-Zone RGB Backlit KB/90WHr/Gray/2.2 kg).</p>
+              <a href="https://www.amazon.in/ASUS-i5-12500H-GeForce-Backlit-FX507ZC4-HN115W/dp/B0C7R342NJ/ref=sr_1_8?crid=2EEE0U4SLGCRC&keywords=asus+tuf&nsdOptOutParam=true&qid=1698147642&sprefix=asus+tu%2Caps%2C363&sr=8-8" target="_blank" class="btn btn-primary">Buy Now</a><a href="#" class="btn btn-warning" style="margin-left: 80px;">₹70,990</a>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-3">    
+          <div class="card" style="width: 18rem;">
+            <img src="https://m.media-amazon.com/images/I/71IZyirdVNL._AC_UY327_FMwebp_QL65_.jpg" class="card-img-top-product" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">ASUS Creator Series Vivobook 14X OLED 2023</h5>
+              <p class="card-text">Intel Core i5-12450H 12th Gen, 14.0-inch 90Hz, (16GB/512GB SSD/RTX 2050/Win11/63WHr/Black/1.40 kg).</p>
+              <a href="https://www.amazon.in/ASUS-Vivobook-i5-12450H-14-0-inch-K3405ZFB-KM541WS/dp/B0C37C99ZT/ref=sr_1_1_sspa?crid=BGSGJHVXYF1I&keywords=asus+laptops&nsdOptOutParam=true&qid=1698148124&sprefix=asus+laptyop%2Caps%2C282&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1" target="_blank" class="btn btn-primary">Buy Now</a><a href="#" class="btn btn-warning" style="margin-left: 80px;">₹67,990</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3">    
+          <div class="card" style="width: 18rem;">
+            <img src="https://m.media-amazon.com/images/I/71DBkrxqBDL._AC_UY327_FMwebp_QL65_.jpg" class="card-img-top-product" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">ASUS Vivobook S15 OLED</h5>
+              <p class="card-text">Intel Core Evo i5-12500H 12th Gen, Thin and Light Laptop (16GB/512GB SSD/Iris Xe Graphics/Windows 11/Office 2021/Black/1.8 kg).</p>
+              <a href="https://www.amazon.in/ASUS-Vivobook-Intel-Core-Evo-i5-12500H-K3502ZA-L502WS/dp/B09YHCTHDY/ref=sr_1_2_sspa?crid=BGSGJHVXYF1I&keywords=asus+laptops&nsdOptOutParam=true&qid=1698148124&sprefix=asus+laptyop%2Caps%2C282&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1" target="_blank" class="btn btn-primary">Buy Now</a><a href="#" class="btn btn-warning" style="margin-left: 70px;">₹68,990</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3">    
+          <div class="card" style="width: 18rem;">
+            <img src="https://m.media-amazon.com/images/I/71VrU+m9CDL._AC_UY327_FMwebp_QL65_.jpg" class="card-img-top-product" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">ASUS Vivobook 16</h5>
+              <p class="card-text">Intel Core i9-13900H 13th Gen, 16" (40.64 cm) FHD+, Thin & Light Laptop (16GB/512GB SSD/Intel Iris Xe/Win 11/Office 2021/Backlit KB/Fingerprint/Black/1.88 kg).</p>
+              <a href="https://www.amazon.in/ASUS-Vivobook-i9-13900H-Fingerprint-X1605VA-MB947WS/dp/B0CHMZRC89/ref=sr_1_11_sspa?crid=BGSGJHVXYF1I&keywords=asus+laptops&nsdOptOutParam=true&qid=1698148124&sprefix=asus+laptyop%2Caps%2C282&sr=8-11-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1" target="_blank" class="btn btn-primary">Buy Now</a><a href="#" class="btn btn-warning" style="margin-left: 80px;">₹84,990</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3">    
+          <div class="card" style="width: 18rem;">
+            <img src="https://m.media-amazon.com/images/I/71ikH2lBGKL._AC_UY327_FMwebp_QL65_.jpg" class="card-img-top-product" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">ASUS Vivobook 15</h5>
+              <p class="card-text">Intel Core i5-13500H 13th Gen, 15.6" (39.62 cms) FHD, Thin and Light Laptop (16GB/512GB SSD/Intel Iris Xᵉ/Win 11/Office 2021/Backlit KB/Blue/1.7 kg).</p>
+              <a href="https://www.amazon.in/ASUS-Vivobook-i5-13500H-Backlit-X1502VA-NJ541WS/dp/B0C1GDVT65/ref=sr_1_4?crid=218NYMNLGBUYQ&keywords=asus+laptops+13+gen&nsdOptOutParam=true&qid=1698148785&sprefix=asus+laptops+13+gen%2Caps%2C258&sr=8-4" target="_blank" class="btn btn-primary">Buy Now</a><a href="#" class="btn btn-warning" style="margin-left: 80px;">₹61,990</a>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <h2>HP :</h2>
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-3">    
+          <div class="card" style="width: 18rem;">
+            <img src="https://m.media-amazon.com/images/I/71PlJMFYA4L._AC_UY327_FMwebp_QL65_.jpg" class="card-img-top-product" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">HP OMEN Gaming Laptop</h5>
+              <p class="card-text">AMD Ryzen 7 6800H, 8GB RTX 3070 Ti GPU, 16.1-inch (40.9 cm), QHD, IPS, 300 nits, 165Hz, 3 ms Response time, 16GB DDR5, 1TB SSD, RGB Backlit KB (MSO, Silver, 2.37 kg).</p>
+              <a href="https://www.amazon.in/HP-GeForce-Graphics-Response-16-n0123AX/dp/B0C2D1P9F8/ref=sr_1_1_sspa?crid=10ZI8K3WT8CG8&keywords=hp+omen&nsdOptOutParam=true&qid=1698149029&sprefix=hp+omen%2Caps%2C270&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1" target="_blank" class="btn btn-primary">Buy Now</a><a href="#" class="btn btn-warning" style="margin-left: 70px;">₹1,14,990</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3">    
+          <div class="card" style="width: 18rem;">
+            <img src="https://m.media-amazon.com/images/I/71GUm2w6MiL._AC_UY327_QL65_.jpg" class="card-img-top-product" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">HP OMEN i5 13th Gen</h5>
+              <p class="card-text">Intel Core i5-13420H, 6GB NVIDIA RTX 4050 GPU, 16.1-inch (40.9 cm), 120W TGP, FHD, IPS, 144Hz, 16GB DDR5, 512GB SSD, RGB Backlit KB, B&O (MSO, Black, 2.32 kg).</p>
+              <a href="https://www.amazon.in/HP-i5-13420H-16-1-inch-Backlit-wd0880TX/dp/B0C9JJL7SM/ref=sr_1_4?crid=10ZI8K3WT8CG8&keywords=hp+omen&nsdOptOutParam=true&qid=1698149052&sprefix=hp+omen%2Caps%2C270&sr=8-4" target="_blank" class="btn btn-primary">Buy Now</a><a href="#" class="btn btn-warning" style="margin-left: 70px;">₹98,500</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3">    
+          <div class="card" style="width: 18rem;">
+            <img src="https://m.media-amazon.com/images/I/71ds9lpXLnL._AC_UY327_FMwebp_QL65_.jpg" class="card-img-top-product" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">HP Victus Gaming Laptop</h5>
+              <p class="card-text">AMD Ryzen 7 5800H, RTX 3050 GPU, 15.6-inch (39.6 cm), FHD, IPS, 144Hz, 9 ms Response time, 16GB DDR4, 512GB SSD, Backlit KB, B&O (MSO, Blue, 2.29 kg).</p>
+              <a href="https://www.amazon.in/HP-15-6-inch-Response-Backlit-fb0107AX/dp/B0C9JQCWFB/ref=sr_1_17?crid=16CL9V9S7NG4R&keywords=hp+victus&nsdOptOutParam=true&qid=1698161428&sprefix=hp+vic+tu%2Caps%2C264&sr=8-17" target="_blank" class="btn btn-primary">Buy Now</a><a href="#" class="btn btn-warning" style="margin-left: 80px;">₹76,990</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3">    
+          <div class="card" style="width: 18rem;">
+            <img src="https://m.media-amazon.com/images/I/71VZDqJwIML._AC_UY327_FMwebp_QL65_.jpg" class="card-img-top-product" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">HP Victus i7 12th Gen</h5>
+              <p class="card-text">Intel Core i7-12650H, NVIDIA RTX 3050 GPU, 15.6-inch (39.6 cm), 75W TGP , FHD, IPS, 144Hz, 9 ms Response time, 16GB DDR4, 512GB SSD (MSO, Blue, 2.29 kg).</p>
+              <a href="https://www.amazon.in/HP-i7-12650H-15-6-inch-Response-fa0188TX/dp/B0C9KCZ4YB/ref=sr_1_13?crid=16CL9V9S7NG4R&keywords=hp+victus&nsdOptOutParam=true&qid=1698161428&sprefix=hp+vic+tu%2Caps%2C264&sr=8-13" target="_blank" class="btn btn-primary">Buy Now</a><a href="#" class="btn btn-warning" style="margin-left: 80px;">₹84,990</a>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-3">    
+          <div class="card" style="width: 18rem;">
+            <img src="https://m.media-amazon.com/images/I/71Z7h1+CghL._AC_UY327_FMwebp_QL65_.jpg" class="card-img-top-product" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">HP Pavilion 15 i7 13th Gen</h5>
+              <p class="card-text">Intel Core i7-1360P, 15.6-inch (39.6 cm), FHD, 16GB DDR4, 1TB SSD, Intel Iris Xᵉ Graphics, FPR, Backlit KB, Audio by B&O (Win 11, MSO 2021, Silver, 1.74 kg).</p>
+              <a href="https://www.amazon.in/HP-Pavilion-i7-1360P-15-6-inch-Graphics/dp/B0C3V556WG/ref=sr_1_17?crid=2J83KKAHK6W8M&keywords=hp+pavilion&nsdOptOutParam=true&qid=1698162684&sprefix=hp+pavillion%2Caps%2C263&sr=8-17" target="_blank" class="btn btn-primary">Buy Now</a><a href="#" class="btn btn-warning" style="margin-left: 70px;">₹88,990</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3">    
+          <div class="card" style="width: 18rem;">
+            <img src="https://m.media-amazon.com/images/I/71TuaG5HZbL._AC_UL480_FMwebp_QL65_.jpg" class="card-img-top-product" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">HP Pavilion Aero 14</h5>
+              <p class="card-text">AMD Ryzen 5 7535U IPS Micro-Edge Laptop(16GB RAM/512GB SSD/Win 11/MSO/Backlit Keyboard/B&O/FPR/Rose Gold/970 Grams).</p>
+              <a href="https://www.amazon.in/HP-Pavilion-Micro-Edge-Graphics-13-be2056AU/dp/B0BXLM7QC9/ref=sxin_17_pa_sp_search_thematic_sspa?content-id=amzn1.sym.c83ee1b3-3a9c-46f6-9864-ef067d50f7e0%3Aamzn1.sym.c83ee1b3-3a9c-46f6-9864-ef067d50f7e0&crid=3F9CQK28XCS7Z&cv_ct_cx=hp+pavilion+gold&keywords=hp+pavilion+gold&nsdOptOutParam=true&pd_rd_i=B0BXLM7QC9&pd_rd_r=246fb6bf-a376-4026-848c-62c2e9fbd847&pd_rd_w=vd4c5&pd_rd_wg=VZ081&pf_rd_p=c83ee1b3-3a9c-46f6-9864-ef067d50f7e0&pf_rd_r=ZFPJPF6C48TGJT7MJ1EV&qid=1698162906&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=hp+pavillion+gol%2Caps%2C256&sr=1-2-ced4eeeb-b190-41d6-902a-1ecb3fb8b7c4-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM&psc=1" target="_blank" class="btn btn-primary">Buy Now</a><a href="#" class="btn btn-warning" style="margin-left: 70px;">₹68,990</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3">    
+          <div class="card" style="width: 18rem;">
+            <img src="https://m.media-amazon.com/images/I/7193KaNnGZL._AC_UY327_FMwebp_QL65_.jpg" class="card-img-top-product" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">HP Pavilion x360 i5 13th Gen</h5>
+              <p class="card-text">Intel Core i5-1335U, 14-inch (35.6 cm), FHD, 16GB DDR4, 1TB SSD, Intel Iris Xe Graphics, FPR, 5MP Camera w/Privacy Shutter (Win 11, MSO 2021, Silver, 1.51 kg).</p>
+              <a href="https://www.amazon.in/HP-Pavilion-i5-1335U-Graphics-14-ek1010TU/dp/B0BRT8BRKY/ref=sr_1_19?crid=3PQAN8X2ZQ2NY&keywords=hp+15s+13th+generation+laptop+i5&nsdOptOutParam=true&qid=1698163242&sprefix=hp+15s+13th+%2Caps%2C257&sr=8-19" target="_blank" class="btn btn-primary">Buy Now</a><a href="#" class="btn btn-warning" style="margin-left: 80px;">₹79,694</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3">    
+          <div class="card" style="width: 18rem;">
+            <img src="https://m.media-amazon.com/images/I/713qvPNFJ2L._AC_UY327_FMwebp_QL65_.jpg" class="card-img-top-product" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">HP 15s i5 13th Gen</h5>
+              <p class="card-text">Intel Core i5-1335U, 15.6-inch (39.6 cm), FHD, 8GB DDR4, 512GB SSD, Intel Iris Xe Graphics, FHD Camera w/Privacy Shutter, Backlit KB (Win 11, MSO 2021, Blue, 1.59 kg).</p>
+              <a href="https://www.amazon.in/HP-i5-1335U-15-6-inch-Graphics-fd0021TU/dp/B0C3MGYZQX/ref=sr_1_8?crid=3PQAN8X2ZQ2NY&keywords=hp+15s+13th+generation+laptop+i5&nsdOptOutParam=true&qid=1698163242&sprefix=hp+15s+13th+%2Caps%2C257&sr=8-8" target="_blank" class="btn btn-primary">Buy Now</a><a href="#" class="btn btn-warning" style="margin-left: 80px;">₹61,990</a>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <h2>Lenovo :</h2>
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-3">    
+          <div class="card" style="width: 18rem;">
+            <img src="https://m.media-amazon.com/images/I/71WYLYZkYgL._AC_UL480_QL65_.jpg" class="card-img-top-product" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Lenovo Legion Slim 5</h5>
+              <p class="card-text">Intel Core i7 13620H 16" (40.64cm) WQXGA IPS 165Hz 300Nits Gaming Laptop (16GB/1TB SSD/Win 11/MSO/RTX 4060 8GB/3 Month Game Pass/Storm Grey/2.4Kg).</p>
+              <a href="https://www.amazon.in/Lenovo-Legion-40-64cm-300Nits-82YA00DXIN/dp/B0CHMGQ3SK/ref=sxin_14_hcs-la-eu-tqprod?content-id=amzn1.sym.f274f612-64ae-41a9-a152-aa1f099eb86b%3Aamzn1.sym.f274f612-64ae-41a9-a152-aa1f099eb86b&crid=2O6YYP2UARAVK&cv_ct_cx=lenovo+gaming+laptops&keywords=lenovo+gaming+laptops&nsdOptOutParam=true&pd_rd_i=B0CHMGQ3SK&pd_rd_r=73fc6cd2-1d40-4310-b786-19303afab16b&pd_rd_w=YaReQ&pd_rd_wg=kiYX0&pf_rd_p=f274f612-64ae-41a9-a152-aa1f099eb86b&pf_rd_r=R1CDEPGA954FG0G21W2Z&qid=1698163804&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=lenovo+gaming+laptop%2Caps%2C274&sr=1-5-ca1238e8-4946-4218-b362-7c3431ea8df6" target="_blank" class="btn btn-primary">Buy Now</a><a href="#" class="btn btn-warning" style="margin-left: 70px;">₹1,38,490</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3">    
+          <div class="card" style="width: 18rem;">
+            <img src="https://m.media-amazon.com/images/I/61P-aGTSCtL._AC_UY327_FMwebp_QL65_.jpg" class="card-img-top-product" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Lenovo Legion 5</h5>
+              <p class="card-text">AMD Ryzen 7 5800H 15.6" (39.62cm) WQHD IPS Gaming Laptop (16GB/1TB SSD/6GB RTX 3060/165Hz/Win 11/MSO/RGB Backlit/3months Game Pass/Phantom Blue/2.4Kg).</p>
+              <a href="https://www.amazon.in/Lenovo-300Nits-Graphics-Refresh-82JU00SYIN/dp/B09NP41X5L/ref=sr_1_5?crid=1UJXYV8FF3MUA&keywords=lenovo+gaming+legion&nsdOptOutParam=true&qid=1698164060&sprefix=lenovo+gaming+legioin%2Caps%2C264&sr=8-5" target="_blank" class="btn btn-primary">Buy Now</a><a href="#" class="btn btn-warning" style="margin-left: 70px;">₹99,990</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3">    
+          <div class="card" style="width: 18rem;">
+            <img src="https://m.media-amazon.com/images/I/61cAO0yr8nL._AC_UY327_FMwebp_QL65_.jpg" class="card-img-top-product" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Lenovo IdeaPad Gaming 3 Ryzen 5</h5>
+              <p class="card-text">AMD Ryzen 5 6600H 15.6" (39.62cm) FHD IPS 120Hz Gaming Laptop (8GB/512GB SSD/Win11/MSO/RTX 3050 4GB/RGB Keyboard/3 Month Game Pass/Onyx Grey/2.32Kg).</p>
+              <a href="https://www.amazon.in/Lenovo-IdeaPad-39-62cm-Keyboard-82SB00V2IN/dp/B0CGX6XGS2/ref=sr_1_4?crid=2O1VLJJEU27C3&keywords=lenovo+gaming&nsdOptOutParam=true&qid=1698164242&sprefix=lenovo+gaming+%2Caps%2C264&sr=8-4" target="_blank" class="btn btn-primary">Buy Now</a><a href="#" class="btn btn-warning" style="margin-left: 80px;">₹58,990</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3">    
+          <div class="card" style="width: 18rem;">
+            <img src="https://m.media-amazon.com/images/I/61dmgZWyTgL._AC_UY327_FMwebp_QL65_.jpg" class="card-img-top-product" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Lenovo IdeaPad Gaming 3 Ryzen 7</h5>
+              <p class="card-text">AMD Ryzen 7 5800H 15.6" (39.62cm) FHD IPS 120Hz Gaming Laptop (8GB/512GB SSD/Win 11/Office 2021/RTX 3050 4GB/3 Month Game Pass/Shadow Black/2.2Kg).</p>
+              <a href="https://www.amazon.in/Lenovo-IdeaPad-Gaming-39-62cm-82K201V2IN/dp/B0B7RXC1Y1/ref=sr_1_8?crid=2O1VLJJEU27C3&keywords=lenovo+gaming&nsdOptOutParam=true&qid=1698164242&sprefix=lenovo+gaming+%2Caps%2C264&sr=8-8" target="_blank" class="btn btn-primary">Buy Now</a><a href="#" class="btn btn-warning" style="margin-left: 80px;">₹60,990</a>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <h2>Accessories I use :)</h2>
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-3">    
+          <div class="card" style="width: 18rem;">
+            <img src="https://m.media-amazon.com/images/I/614BGIxYauL._AC_UY327_FMwebp_QL65_.jpg" class="card-img-top-product" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Zeb-Paradise</h5>
+              <p class="card-text">Zebronics Zeb-Paradise Bluetooth Wired Over Ear Headphones With Mic Black.</p>
+              <a href="https://www.amazon.in/ZEBRONICS-Zeb-Paradise-Bluetooth-Headphone-Headset/dp/B08538BB8R/ref=sr_1_1_mod_primary_new?crid=24GNMPES2VP22&keywords=zeb+paradise&qid=1698164769&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=zeb+paradis%2Caps%2C280&sr=8-1" target="_blank" class="btn btn-primary">Buy Now</a><a href="#" class="btn btn-warning" style="margin-left: 70px;">₹990</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3">    
+          <div class="card" style="width: 18rem;">
+            <img src="https://m.media-amazon.com/images/I/716lRoobbPL._AC_UY327_FMwebp_QL65_.jpg" class="card-img-top-product" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">ZEBRONICS Nitro PRO Mechanical Keyboard</h5>
+              <p class="card-text">Outemu RED Switch Type C Gaming Mechanical Keyboard with Software Customization for Macros, RGB LED, 1000Hz Polling Rate, Detachable Braided USB C Type Cable & Key Removal Tool.</p>
+              <a href="https://www.amazon.in/ZEBRONICS-Nitro-Mechanical-Customization-Detachable/dp/B0BSNNRSQV/ref=sr_1_2?crid=1NOCM2OM0WQGU&keywords=zeb+nitro+pro&nsdOptOutParam=true&qid=1698165035&sprefix=zeb+nitro+pro%2Caps%2C266&sr=8-2" target="_blank" class="btn btn-primary">Buy Now</a><a href="#" class="btn btn-warning" style="margin-left: 70px;">₹2,199</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3">    
+          <div class="card" style="width: 18rem;">
+            <img src="https://m.media-amazon.com/images/I/61kBmC8NfGL._AC_UY327_FMwebp_QL65_.jpg" class="card-img-top-product" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">ZEBRONICS Aluminium Alloy Laptop Stand</h5>
+              <p class="card-text">Compatible with 9-15.6 inch Laptops, 7 Angles Adjustable Tabletop, Anti Slip Silicon Rubber Pads, Foldable, Velvet Pouch Inside, Zeb-NS2000 (Dark Grey).</p>
+              <a href="https://www.amazon.in/ZEBRONICS-Zeb-NS2000-Supports-Aluminium-Adjustable/dp/B08WKCTFF3/ref=sr_1_15?crid=32BZWATW78AVH&keywords=laptop+stand&qid=1698165185&sprefix=laptop+stan%2Caps%2C256&sr=8-15" target="_blank" class="btn btn-primary">Buy Now</a><a href="#" class="btn btn-warning" style="margin-left: 80px;"> ₹599</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3">    
+          <div class="card" style="width: 18rem;">
+            <img src="https://m.media-amazon.com/images/I/61onAgKP5gL._AC_UY327_FMwebp_QL65_.jpg" class="card-img-top-product" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Dell MS116 Wired Optical Mouse</h5>
+              <p class="card-text">1000Dpi, Led Tracking, Scrolling Wheel, Plug and Play.</p>
+              <a href="https://www.amazon.in/Dell-MS116-1000DPI-Wired-Optical/dp/B01HJI0FS2/ref=sr_1_1_sspa?crid=1D1ZSBIZ002KG&keywords=Dell+mouse&nsdOptOutParam=true&qid=1698165371&sprefix=dell+mous%2Caps%2C259&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1" target="_blank" class="btn btn-primary">Buy Now</a><a href="#" class="btn btn-warning" style="margin-left: 80px;">₹268</a>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="b-example-divider">
+      <div class="container">
+        <footer class="py-3 my-4">
+          <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+          </ul>
+          <p class="text-center text-muted">&copy; 2023 Harshit Shukla, Inc</p>
+        </footer>
+      </div>
+    </div>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
